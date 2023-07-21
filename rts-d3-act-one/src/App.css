@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: grey;
+  height: 250px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0;
+}
+
+.pokemon-img {
+  height: 120px;
+  width: 120px;
+}
+
+.pokemon-details {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: space-between;
+}
+
+.section {
+  display: flex;
+}
